@@ -1,8 +1,11 @@
-package com.spring.mvc.web.score.domain;
+package com.example.mvc.web.score.domain;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 @Setter @Getter
 @ToString
@@ -30,6 +33,16 @@ public class Score {
         this.kor = kor;
         this.eng = eng;
         this.math = math;
+    }
+
+    public Score(ResultSet rs) throws SQLException {
+        this.stuNum = rs.getInt("stu_num");
+        this.name = rs.getString("stu_name");
+        this.kor = rs.getInt("kor");
+        this.eng = rs.getInt("eng");
+        this.math = rs.getInt("math");
+        this.total = rs.getInt("total");
+        this.average = rs.getDouble("average");
     }
 
     //총점, 평균을 구하는 메서드

@@ -1,6 +1,6 @@
-package com.spring.mvc.web.score.repository;
+package com.example.mvc.web.score.repository;
 
-import com.spring.mvc.web.score.domain.Score;
+import com.example.mvc.web.score.domain.Score;
 
 import java.util.List;
 

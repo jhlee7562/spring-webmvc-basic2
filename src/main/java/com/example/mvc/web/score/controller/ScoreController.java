@@ -1,8 +1,7 @@
-package com.spring.mvc.web.score.controller;
+package com.example.mvc.web.score.controller;
 
-import com.spring.mvc.web.score.domain.Score;
-import com.spring.mvc.web.score.repository.ScoreRepository;
-import com.spring.mvc.web.score.service.ScoreService;
+import com.example.mvc.web.score.domain.Score;
+import com.example.mvc.web.score.service.ScoreService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 @Controller

@@ -1,10 +1,10 @@
-package com.spring.mvc.web.score.service;
+package com.example.mvc.web.score.service;
 
 
-import com.spring.mvc.web.score.domain.Score;
-import com.spring.mvc.web.score.repository.ScoreRepository;
+import com.example.mvc.web.score.domain.Score;
+import com.example.mvc.web.score.repository.ScoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,7 +15,7 @@ public class ScoreService {
     private final ScoreRepository scoreRepository;
 
     @Autowired
-    public ScoreService(ScoreRepository scoreRepository) {
+    public ScoreService(@Qualifier("jr") ScoreRepository scoreRepository) {
         this.scoreRepository = scoreRepository;
     }
 

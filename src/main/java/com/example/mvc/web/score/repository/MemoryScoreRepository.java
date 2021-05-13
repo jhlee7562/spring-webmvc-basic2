@@ -1,18 +1,15 @@
-package com.spring.mvc.web.score.repository;
+package com.example.mvc.web.score.repository;
 
-import com.spring.mvc.web.score.domain.Score;
+import com.example.mvc.web.score.domain.Score;
 import lombok.extern.log4j.Log4j2;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+@Repository("mr")
 @Log4j2
 public class MemoryScoreRepository implements ScoreRepository {
 
