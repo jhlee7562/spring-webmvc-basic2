@@ -1,4 +1,4 @@
-package com.example.mvc.web;
+package com.spring.mvc.web;
 
 import org.junit.jupiter.api.Test;
 

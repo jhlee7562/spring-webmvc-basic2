@@ -1,6 +1,6 @@
-package com.example.mvc.web.score.repository;
+package com.spring.mvc.web.score.repository;
 
-import com.example.mvc.web.score.domain.Score;
+import com.spring.mvc.web.score.domain.Score;
 import lombok.RequiredArgsConstructor;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;

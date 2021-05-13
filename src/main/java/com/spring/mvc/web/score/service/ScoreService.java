@@ -1,8 +1,8 @@
-package com.example.mvc.web.score.service;
+package com.spring.mvc.web.score.service;
 
 
-import com.example.mvc.web.score.domain.Score;
-import com.example.mvc.web.score.repository.ScoreRepository;
+import com.spring.mvc.web.score.domain.Score;
+import com.spring.mvc.web.score.repository.ScoreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

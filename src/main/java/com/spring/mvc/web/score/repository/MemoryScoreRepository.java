@@ -1,6 +1,6 @@
-package com.example.mvc.web.score.repository;
+package com.spring.mvc.web.score.repository;
 
-import com.example.mvc.web.score.domain.Score;
+import com.spring.mvc.web.score.domain.Score;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Repository;
 

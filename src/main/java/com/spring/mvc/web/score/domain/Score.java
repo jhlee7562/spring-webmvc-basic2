@@ -1,4 +1,4 @@
-package com.example.mvc.web.score.domain;
+package com.spring.mvc.web.score.domain;
 
 import lombok.Getter;
 import lombok.Setter;

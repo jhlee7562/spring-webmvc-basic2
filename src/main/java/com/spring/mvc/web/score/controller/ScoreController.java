@@ -1,7 +1,7 @@
-package com.example.mvc.web.score.controller;
+package com.spring.mvc.web.score.controller;
 
-import com.example.mvc.web.score.domain.Score;
-import com.example.mvc.web.score.service.ScoreService;
+import com.spring.mvc.web.score.domain.Score;
+import com.spring.mvc.web.score.service.ScoreService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
